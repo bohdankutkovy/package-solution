@@ -1,8 +1,10 @@
 # frozen_string_literal: true
 
 class Price < ApplicationRecord
+  # Relations
   belongs_to :package, optional: false
 
+  # Validations
   validates :price_cents, presence: true
 end
 

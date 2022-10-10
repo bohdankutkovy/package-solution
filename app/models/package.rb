@@ -1,8 +1,10 @@
 # frozen_string_literal: true
 
 class Package < ApplicationRecord
+  # Relations
   has_many :prices, dependent: :destroy
 
+  # Validations
   validates :name, presence: true, uniqueness: true
   validates :price_cents, presence: true
 end
