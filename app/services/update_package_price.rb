@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class UpdatePackagePrice
-  def self.call(package, new_price_cents, **options)
+  def self.call(package, new_price_cents, **_options)
     Package.transaction do
       # Add a pricing history record
       Price.create!(package: package, price_cents: package.price_cents)

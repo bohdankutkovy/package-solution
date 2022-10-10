@@ -10,23 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_01_27_183154) do
-
-  create_table "packages", force: :cascade do |t|
-    t.integer "price_cents", default: 0, null: false
-    t.string "name", null: false
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.index ["name"], name: "index_packages_on_name", unique: true
+ActiveRecord::Schema.define(version: 20_220_127_183_154) do
+  create_table 'packages', force: :cascade do |t|
+    t.integer 'price_cents', default: 0, null: false
+    t.string 'name', null: false
+    t.datetime 'created_at', precision: 6, null: false
+    t.datetime 'updated_at', precision: 6, null: false
+    t.index ['name'], name: 'index_packages_on_name', unique: true
   end
 
-  create_table "prices", force: :cascade do |t|
-    t.integer "price_cents", null: false
-    t.integer "package_id", null: false
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.index ["package_id"], name: "index_prices_on_package_id"
+  create_table 'prices', force: :cascade do |t|
+    t.integer 'price_cents', null: false
+    t.integer 'package_id', null: false
+    t.datetime 'created_at', precision: 6, null: false
+    t.datetime 'updated_at', precision: 6, null: false
+    t.index ['package_id'], name: 'index_prices_on_package_id'
   end
 
-  add_foreign_key "prices", "packages"
+  add_foreign_key 'prices', 'packages'
 end
