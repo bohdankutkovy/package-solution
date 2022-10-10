@@ -20,11 +20,10 @@ end
 #
 # Table name: packages
 #
-#  id          :integer          not null, primary key
-#  name        :string           not null
-#  price_cents :integer          default(0), not null
-#  created_at  :datetime         not null
-#  updated_at  :datetime         not null
+#  id         :integer          not null, primary key
+#  name       :string           not null
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
 #
 # Indexes
 #

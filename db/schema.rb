@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_10_10_103625) do
+ActiveRecord::Schema.define(version: 2022_10_10_171648) do
 
   create_table "data_migrations", primary_key: "version", id: :string, force: :cascade do |t|
   end
@@ -24,11 +24,20 @@ ActiveRecord::Schema.define(version: 2022_10_10_103625) do
   end
 
   create_table "packages", force: :cascade do |t|
-    t.integer "price_cents", default: 0, null: false
     t.string "name", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["name"], name: "index_packages_on_name", unique: true
+  end
+
+  create_table "price_assignments", force: :cascade do |t|
+    t.integer "price_id", null: false
+    t.integer "municipality_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["municipality_id"], name: "index_price_assignments_on_municipality_id"
+    t.index ["price_id", "municipality_id"], name: "index_price_assignments_on_price_id_and_municipality_id", unique: true
+    t.index ["price_id"], name: "index_price_assignments_on_price_id"
   end
 
   create_table "prices", force: :cascade do |t|
@@ -39,5 +48,7 @@ ActiveRecord::Schema.define(version: 2022_10_10_103625) do
     t.index ["package_id"], name: "index_prices_on_package_id"
   end
 
+  add_foreign_key "price_assignments", "municipalities"
+  add_foreign_key "price_assignments", "prices"
   add_foreign_key "prices", "packages"
 end

@@ -1,6 +1,10 @@
 # frozen_string_literal: true
 
 class Municipality < ApplicationRecord
+  # Relations
+  has_many :price_assignments, dependent: :destroy
+  has_many :prices, through: :price_assignments
+
   # Validations
   validates :code, :name, presence: true
   validates :code, uniqueness: true

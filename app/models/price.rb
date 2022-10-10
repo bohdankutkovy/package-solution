@@ -3,9 +3,18 @@
 class Price < ApplicationRecord
   # Relations
   belongs_to :package, optional: false
+  has_many :price_assignments, dependent: :destroy
+  has_many :municipalities, through: :price_assignments
 
   # Validations
   validates :price_cents, presence: true
+
+  # Scopes
+  scope :newest, -> { order(created_at: :desc) }
+
+  def self.current
+    Price.newest.first
+  end
 end
 
 # == Schema Information
