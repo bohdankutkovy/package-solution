@@ -1,14 +1,8 @@
 # frozen_string_literal: true
 
-class Package < ApplicationRecord
-  # Relations
-  has_many :prices, dependent: :destroy
-
-  # Validations
-  validates :name, presence: true, uniqueness: true
-
-  def price_for(municipality)
-    municipality.prices.where(package_id: id).latest
+FactoryBot.define do
+  factory :package do
+    name { 'TestarensKorv' }
   end
 end
 

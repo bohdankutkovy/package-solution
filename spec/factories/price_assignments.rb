@@ -1,16 +1,10 @@
 # frozen_string_literal: true
 
-class PriceAssignment < ApplicationRecord
-  # Relations
-  belongs_to :price, optional: false
-  belongs_to :municipality, optional: false
-
-  # Validations
-  validates :municipality_id,
-            :price_id,
-            presence: true
-
-  validates_uniqueness_of :price_id, scope: :municipality_id
+FactoryBot.define do
+  factory :price_assignment do
+    price
+    municipality
+  end
 end
 
 # == Schema Information

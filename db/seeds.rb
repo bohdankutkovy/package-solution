@@ -19,3 +19,9 @@ prices = YAML.load_file(Rails.root.join('import/initial_price_history.yaml'))
 premium.prices.insert_all(prices['premium'])
 plus.prices.insert_all(prices['plus'])
 basic.prices.insert_all(prices['basic'])
+
+Price.find_each(batch_size: 100) do |price|
+  Municipality.all.each do |municipality|
+    PriceAssignment.create(price: price, municipality: municipality)
+  end
+end
