@@ -1,25 +1,26 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.0.3"
+ruby '3.0.3'
 
-# Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 7.0.1"
-
-# The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
-gem "sprockets-rails"
-
-# Use sqlite3 as the database for Active Record
-gem "sqlite3", "~> 1.4"
-
-# Use the Puma web server [https://github.com/puma/puma]
-gem "puma", "~> 5.0"
-
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
+gem 'data_migrate'
+gem 'puma', '~> 5.0'
+gem 'rails', '~> 7.0.1'
+gem 'sprockets-rails'
+gem 'sqlite3', '~> 1.4'
+gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 group :development, :test do
-  gem "rspec-rails"
+  gem 'annotate'
+  gem 'factory_bot_rails'
   gem 'pry'
-  gem "pry-byebug"
+  gem 'pry-byebug'
+  gem 'rspec-rails'
+  gem 'rubocop', require: false
+end
+
+group :test do
+  gem 'simplecov', require: false
 end

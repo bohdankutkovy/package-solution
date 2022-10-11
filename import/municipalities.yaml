@@ -1,0 +1,581 @@
+---
+- code: '1440'
+  name: Ale Municipality
+- code: '1489'
+  name: Alingsås Municipality
+- code: '0764'
+  name: Alvesta Municipality
+- code: '0604'
+  name: Aneby Municipality
+- code: '1984'
+  name: Arboga Municipality
+- code: '2506'
+  name: Arjeplog Municipality
+- code: '2505'
+  name: Arvidsjaur Municipality
+- code: '1784'
+  name: Arvika Municipality
+- code: '1882'
+  name: Askersund Municipality
+- code: '2084'
+  name: Avesta Municipality
+- code: '1460'
+  name: Bengtsfors Municipality
+- code: '2326'
+  name: Berg Municipality
+- code: '2403'
+  name: Bjurholm Municipality
+- code: '1260'
+  name: Bjuv Municipality
+- code: '2582'
+  name: Boden Municipality
+- code: '1443'
+  name: Bollebygd Municipality
+- code: '2183'
+  name: Bollnäs Municipality
+- code: '0885'
+  name: Borgholm Municipality
+- code: '2081'
+  name: Borlänge Municipality
+- code: '1490'
+  name: Borås Municipality
+- code: '0127'
+  name: Botkyrka Municipality
+- code: '0560'
+  name: Boxholm Municipality
+- code: '1272'
+  name: Bromölla Municipality
+- code: '2305'
+  name: Bräcke Municipality
+- code: '1231'
+  name: Burlöv Municipality
+- code: '1278'
+  name: Båstad Municipality
+- code: '1438'
+  name: Dals-Ed Municipality
+- code: '0162'
+  name: Danderyd Municipality
+- code: '1862'
+  name: Degerfors Municipality
+- code: '2425'
+  name: Dorotea Municipality
+- code: '1730'
+  name: Eda Municipality
+- code: '0125'
+  name: Ekerö Municipality
+- code: '0686'
+  name: Eksjö Municipality
+- code: '0862'
+  name: Emmaboda Municipality
+- code: '0381'
+  name: Enköping Municipality
+- code: '0484'
+  name: Eskilstuna Municipality
+- code: '1285'
+  name: Eslöv Municipality
+- code: '1445'
+  name: Essunga Municipality
+- code: '1982'
+  name: Fagersta Municipality
+- code: '1382'
+  name: Falkenberg Municipality
+- code: '1499'
+  name: Falköping Municipality
+- code: '2080'
+  name: Falun Municipality
+- code: '1782'
+  name: Filipstad Municipality
+- code: '0562'
+  name: Finspång Municipality
+- code: '0482'
+  name: Flen Municipality
+- code: '1763'
+  name: Forshaga Municipality
+- code: '1439'
+  name: Färgelanda Municipality
+- code: '2026'
+  name: Gagnef Municipality
+- code: '0662'
+  name: Gislaved Municipality
+- code: '0461'
+  name: Gnesta Municipality
+- code: '0617'
+  name: Gnosjö Municipality
+- code: '0980'
+  name: Gotland Municipality
+- code: '1764'
+  name: Grums Municipality
+- code: '1444'
+  name: Grästorp Municipality
+- code: '1447'
+  name: Gullspång Municipality
+- code: '2523'
+  name: Gällivare Municipality
+- code: '2180'
+  name: Gävle Municipality
+- code: '1480'
+  name: Gothenburg Municipality
+- code: '1471'
+  name: Götene Municipality
+- code: '0643'
+  name: Habo Municipality
+- code: '1783'
+  name: Hagfors Municipality
+- code: '1861'
+  name: Hallsberg Municipality
+- code: '1961'
+  name: Hallstahammar Municipality
+- code: '1380'
+  name: Halmstad Municipality
+- code: '1761'
+  name: Hammarö Municipality
+- code: '0136'
+  name: Haninge Municipality
+- code: '2583'
+  name: Haparanda Municipality
+- code: '0331'
+  name: Heby Municipality
+- code: '2083'
+  name: Hedemora Municipality
+- code: '1283'
+  name: Helsingborg Municipality
+- code: '1466'
+  name: Herrljunga Municipality
+- code: '1497'
+  name: Hjo Municipality
+- code: '2104'
+  name: Hofors Municipality
+- code: '0126'
+  name: Huddinge Municipality
+- code: '2184'
+  name: Hudiksvall Municipality
+- code: '0860'
+  name: Hultsfred Municipality
+- code: '1315'
+  name: Hylte Municipality
+- code: '0305'
+  name: Håbo Municipality
+- code: '1863'
+  name: Hällefors Municipality
+- code: '2361'
+  name: Härjedalen Municipality
+- code: '2280'
+  name: Härnösand Municipality
+- code: '1401'
+  name: Härryda Municipality
+- code: '1293'
+  name: Hässleholm Municipality
+- code: '1284'
+  name: Höganäs Municipality
+- code: '0821'
+  name: Högsby Municipality
+- code: '1266'
+  name: Hörby Municipality
+- code: '1267'
+  name: Höör Municipality
+- code: '2510'
+  name: Jokkmokk Municipality
+- code: '0123'
+  name: Järfälla Municipality
+- code: '0680'
+  name: Jönköping Municipality
+- code: '2514'
+  name: Kalix Municipality
+- code: '0880'
+  name: Kalmar Municipality
+- code: '1446'
+  name: Karlsborg Municipality
+- code: '1082'
+  name: Karlshamn Municipality
+- code: '1883'
+  name: Karlskoga Municipality
+- code: '1080'
+  name: Karlskrona Municipality
+- code: '1780'
+  name: Karlstad Municipality
+- code: '0483'
+  name: Katrineholm Municipality
+- code: '1715'
+  name: Kil Municipality
+- code: '0513'
+  name: Kinda Municipality
+- code: '2584'
+  name: Kiruna Municipality
+- code: '1276'
+  name: Klippan Municipality
+- code: '0330'
+  name: Knivsta Municipality
+- code: '2282'
+  name: Kramfors Municipality
+- code: '1290'
+  name: Kristianstad Municipality
+- code: '1781'
+  name: Kristinehamn Municipality
+- code: '2309'
+  name: Krokom Municipality
+- code: '1881'
+  name: Kumla Municipality
+- code: '1384'
+  name: Kungsbacka Municipality
+- code: '1960'
+  name: Kungsör Municipality
+- code: '1482'
+  name: Kungälv Municipality
+- code: '1261'
+  name: Kävlinge Municipality
+- code: '1983'
+  name: Köping Municipality
+- code: '1381'
+  name: Laholm Municipality
+- code: '1282'
+  name: Landskrona Municipality
+- code: '1860'
+  name: Laxå Municipality
+- code: '1814'
+  name: Lekeberg Municipality
+- code: '2029'
+  name: Leksand Municipality
+- code: '1441'
+  name: Lerum Municipality
+- code: '0761'
+  name: Lessebo Municipality
+- code: '0186'
+  name: Lidingö Municipality
+- code: '1494'
+  name: Lidköping Municipality
+- code: '1462'
+  name: Lilla Edet Municipality
+- code: '1885'
+  name: Lindesberg Municipality
+- code: '0580'
+  name: Linköping Municipality
+- code: '0781'
+  name: Ljungby Municipality
+- code: '2161'
+  name: Ljusdal Municipality
+- code: '1864'
+  name: Ljusnarsberg Municipality
+- code: '1262'
+  name: Lomma Municipality
+- code: '2085'
+  name: Ludvika Municipality
+- code: '2580'
+  name: Luleå Municipality
+- code: '1281'
+  name: Lund Municipality
+- code: '2481'
+  name: Lycksele Municipality
+- code: '1484'
+  name: Lysekil Municipality
+- code: '1280'
+  name: Malmö Municipality
+- code: '2023'
+  name: Malung-Sälen Municipality
+- code: '2418'
+  name: Malå Municipality
+- code: '1493'
+  name: Mariestad Municipality
+- code: '1463'
+  name: Mark Municipality
+- code: '0767'
+  name: Markaryd Municipality
+- code: '1461'
+  name: Mellerud Municipality
+- code: '0586'
+  name: Mjölby Municipality
+- code: '2062'
+  name: Mora Municipality
+- code: '0583'
+  name: Motala Municipality
+- code: '0642'
+  name: Mullsjö Municipality
+- code: '1430'
+  name: Munkedal Municipality
+- code: '1762'
+  name: Munkfors Municipality
+- code: '1481'
+  name: Mölndal Municipality
+- code: '0861'
+  name: Mönsterås Municipality
+- code: '0840'
+  name: Mörbylånga Municipality
+- code: '0182'
+  name: Nacka Municipality
+- code: '1884'
+  name: Nora Municipality
+- code: '1962'
+  name: Norberg Municipality
+- code: '2132'
+  name: Nordanstig Municipality
+- code: '2401'
+  name: Nordmaling Municipality
+- code: '0581'
+  name: Norrköping Municipality
+- code: '0188'
+  name: Norrtälje Municipality
+- code: '2417'
+  name: Norsjö Municipality
+- code: '0881'
+  name: Nybro Municipality
+- code: '0140'
+  name: Nykvarn Municipality
+- code: '0480'
+  name: Nyköping Municipality
+- code: '0192'
+  name: Nynäshamn Municipality
+- code: '0682'
+  name: Nässjö Municipality
+- code: '2101'
+  name: Ockelbo Municipality
+- code: '1060'
+  name: Olofström Municipality
+- code: '2034'
+  name: Orsa Municipality
+- code: '1421'
+  name: Orust Municipality
+- code: '1273'
+  name: Osby Municipality
+- code: '0882'
+  name: Oskarshamn Municipality
+- code: '2121'
+  name: Ovanåker Municipality
+- code: '0481'
+  name: Oxelösund Municipality
+- code: '2521'
+  name: Pajala Municipality
+- code: '1402'
+  name: Partille Municipality
+- code: '1275'
+  name: Perstorp Municipality
+- code: '2581'
+  name: Piteå Municipality
+- code: '2303'
+  name: Ragunda Municipality
+- code: '2409'
+  name: Robertsfors Municipality
+- code: '1081'
+  name: Ronneby Municipality
+- code: '2031'
+  name: Rättvik Municipality
+- code: '1981'
+  name: Sala Municipality
+- code: '0128'
+  name: Salem Municipality
+- code: '2181'
+  name: Sandviken Municipality
+- code: '0191'
+  name: Sigtuna Municipality
+- code: '1291'
+  name: Simrishamn Municipality
+- code: '1265'
+  name: Sjöbo Municipality
+- code: '1495'
+  name: Skara Municipality
+- code: '2482'
+  name: Skellefteå Municipality
+- code: '1904'
+  name: Skinnskatteberg Municipality
+- code: '1264'
+  name: Skurup Municipality
+- code: '1496'
+  name: Skövde Municipality
+- code: '2061'
+  name: Smedjebacken Municipality
+- code: '2283'
+  name: Sollefteå Municipality
+- code: '0163'
+  name: Sollentuna Municipality
+- code: '0184'
+  name: Solna Municipality
+- code: '2422'
+  name: Sorsele Municipality
+- code: '1427'
+  name: Sotenäs Municipality
+- code: '1230'
+  name: Staffanstorp Municipality
+- code: '1415'
+  name: Stenungsund Municipality
+- code: '0180'
+  name: Stockholm Municipality
+- code: '1760'
+  name: Storfors Municipality
+- code: '2421'
+  name: Storuman Municipality
+- code: '0486'
+  name: Strängnäs Municipality
+- code: '1486'
+  name: Strömstad Municipality
+- code: '2313'
+  name: Strömsund Municipality
+- code: '0183'
+  name: Sundbyberg Municipality
+- code: '2281'
+  name: Sundsvall Municipality
+- code: '1766'
+  name: Sunne Municipality
+- code: '1907'
+  name: Surahammar Municipality
+- code: '1214'
+  name: Svalöv Municipality
+- code: '1263'
+  name: Svedala Municipality
+- code: '1465'
+  name: Svenljunga Municipality
+- code: '1785'
+  name: Säffle Municipality
+- code: '2082'
+  name: Säter Municipality
+- code: '0684'
+  name: Sävsjö Municipality
+- code: '2182'
+  name: Söderhamn Municipality
+- code: '0582'
+  name: Söderköping Municipality
+- code: '0181'
+  name: Södertälje Municipality
+- code: '1083'
+  name: Sölvesborg Municipality
+- code: '1435'
+  name: Tanum Municipality
+- code: '1472'
+  name: Tibro Municipality
+- code: '1498'
+  name: Tidaholm Municipality
+- code: '0360'
+  name: Tierp Municipality
+- code: '2262'
+  name: Timrå Municipality
+- code: '0763'
+  name: Tingsryd Municipality
+- code: '1419'
+  name: Tjörn Municipality
+- code: '1270'
+  name: Tomelilla Municipality
+- code: '1737'
+  name: Torsby Municipality
+- code: '0834'
+  name: Torsås Municipality
+- code: '1452'
+  name: Tranemo Municipality
+- code: '0687'
+  name: Tranås Municipality
+- code: '1287'
+  name: Trelleborg Municipality
+- code: '1488'
+  name: Trollhättan Municipality
+- code: '0488'
+  name: Trosa Municipality
+- code: '0138'
+  name: Tyresö Municipality
+- code: '0160'
+  name: Täby Municipality
+- code: '1473'
+  name: Töreboda Municipality
+- code: '1485'
+  name: Uddevalla Municipality
+- code: '1491'
+  name: Ulricehamn Municipality
+- code: '2480'
+  name: Umeå Municipality
+- code: '0114'
+  name: Upplands Väsby Municipality
+- code: '0139'
+  name: Upplands-Bro Municipality
+- code: '0380'
+  name: Uppsala Municipality
+- code: '0760'
+  name: Uppvidinge Municipality
+- code: '0584'
+  name: Vadstena Municipality
+- code: '0665'
+  name: Vaggeryd Municipality
+- code: '0563'
+  name: Valdemarsvik Municipality
+- code: '0115'
+  name: Vallentuna Municipality
+- code: '2021'
+  name: Vansbro Municipality
+- code: '1470'
+  name: Vara Municipality
+- code: '1383'
+  name: Varberg Municipality
+- code: '0187'
+  name: Vaxholm Municipality
+- code: '1233'
+  name: Vellinge Municipality
+- code: '0685'
+  name: Vetlanda Municipality
+- code: '2462'
+  name: Vilhelmina Municipality
+- code: '0884'
+  name: Vimmerby Municipality
+- code: '2404'
+  name: Vindeln Municipality
+- code: '0428'
+  name: Vingåker Municipality
+- code: '1442'
+  name: Vårgårda Municipality
+- code: '1487'
+  name: Vänersborg Municipality
+- code: '2460'
+  name: Vännäs Municipality
+- code: '0120'
+  name: Värmdö Municipality
+- code: '0683'
+  name: Värnamo Municipality
+- code: '0883'
+  name: Västervik Municipality
+- code: '1980'
+  name: Västerås Municipality
+- code: '0780'
+  name: Växjö Municipality
+- code: '0512'
+  name: Ydre Municipality
+- code: '1286'
+  name: Ystad Municipality
+- code: '1492'
+  name: Åmål Municipality
+- code: '2260'
+  name: Ånge Municipality
+- code: '2321'
+  name: Åre Municipality
+- code: '1765'
+  name: Årjäng Municipality
+- code: '2463'
+  name: Åsele Municipality
+- code: '1277'
+  name: Åstorp Municipality
+- code: '0561'
+  name: Åtvidaberg Municipality
+- code: '0765'
+  name: Älmhult Municipality
+- code: '2039'
+  name: Älvdalen Municipality
+- code: '0319'
+  name: Älvkarleby Municipality
+- code: '2560'
+  name: Älvsbyn Municipality
+- code: '1292'
+  name: Ängelholm Municipality
+- code: '1407'
+  name: Öckerö Municipality
+- code: '0509'
+  name: Ödeshög Municipality
+- code: '1880'
+  name: Örebro Municipality
+- code: '1257'
+  name: Örkelljunga Municipality
+- code: '2284'
+  name: Örnsköldsvik Municipality
+- code: '2380'
+  name: Östersund Municipality
+- code: '0117'
+  name: Österåker Municipality
+- code: '0382'
+  name: Östhammar Municipality
+- code: '1256'
+  name: Östra Göinge Municipality
+- code: '2513'
+  name: Överkalix Municipality
+- code: '2518'
+  name: Övertorneå Municipality
